@@ -1,0 +1,7 @@
+This is the code for facilitating the Mechanical Turk experiments.
+
+To use do the following:
+    0. Fill in your Mechanical Turk ID and Secret Key in both of the python files.
+    1. Construct your input file like "out.final.csv". The ID for each row must be unique, and the "Ground Truth Word", and "Ground Truth Label" should have correct values.
+    2. Run 'python 02_make_hits_groups.py > ids.txt' to upload the HITs to MTurk.
+    3. After the HITS have finished (their progress can be monitored using the AMT site), download them using 'python 03_get_hits.py'.
