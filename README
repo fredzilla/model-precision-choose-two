@@ -1,0 +1,9 @@
+This code is to accompany the paper:
+Fred Morstatter, and Huan Liu. A Novel Measure for Coherence in Statistical Topic Models, Association for Computational Linguistics, 2016.
+
+If you find the code useful we would appreciate a citation.
+
+If you have any questions, the contact author can be reached at fred.morstatter@asu.edu.
+
+
+Code to run the crowdsourced experiments using Mechanical Turk can be found in the 'mturk' folder. Code to automatically assess the topic's quality can be found in the 'auto' folder. An accompanying README is in each subfolder.

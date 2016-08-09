@@ -1,0 +1,7 @@
+This is the code for running the automated measures for determining topic quality.
+
+In order to run this you must do the following:
+	1. Create an "mturk_questions.csv" as can be found in the "mturk" subfolder.
+	2. Format your corpus so that each word is separated by a single whitespace character, and each line is one document. Once you have done this, change "<<<CORPUS>>>" in "autoassess.py" with the path to this file.
+	3. Run autoassess.py.
+
